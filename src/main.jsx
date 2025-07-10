@@ -1,9 +1,7 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Github, Linkedin } from "lucide-react";
 import "./Layout.css";
 
-export default function App() {
+export default function Portfolio() {
   return (
     <div className="layout-container">
       <div className="max-w-4xl mx-auto">
@@ -43,34 +41,31 @@ export default function App() {
         <section className="mb-10">
           <h2 className="text-3xl font-semibold text-blue-700 mb-4">Key Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Card className="shadow-lg border border-blue-100">
-              <CardContent className="p-4">
-                <h3 className="text-xl font-bold text-blue-800">Gas Control System (CREATUS)</h3>
-                <p className="text-gray-600 text-sm mb-2">2024 - Currently</p>
-                <p className="text-gray-700">
-                  Designed a system to monitor the environment of an underwater habitat using C++ for microcontroller control,
-                  and C# for the desktop interface. Integrated Oxygen, CO2, Humidity, and Temperature sensors.
-                </p>
-                <p className="text-sm text-blue-600 mt-2">Role: Developer and Electronic Engineer</p>
-              </CardContent>
-            </Card>
-            <Card className="shadow-lg border border-blue-100">
-              <CardContent className="p-4">
-                <h3 className="text-xl font-bold text-blue-800">WhatsApp + Dialog Flow Integration</h3>
-                <p className="text-gray-600 text-sm mb-2">May 2025</p>
-                <p className="text-gray-700">
-                  Developed an API using Python and Flask to integrate a Dialog Flow chatbot with WhatsApp through Twilio.
-                </p>
-                <p className="text-sm text-blue-600">Role: Developer</p>
-                <a
-                  className="text-blue-600 hover:underline mt-2 inline-block"
-                  href="https://github.com/StevenTEC295/whatsappAgent"
-                  target="_blank"
-                >
-                  View on GitHub
-                </a>
-              </CardContent>
-            </Card>
+            <div className="shadow-lg border border-blue-100 rounded-xl p-4">
+              <h3 className="text-xl font-bold text-blue-800">Gas Control System (CREATUS)</h3>
+              <p className="text-gray-600 text-sm mb-2">2024 - Currently</p>
+              <p className="text-gray-700">
+                Designed a system to monitor the environment of an underwater habitat using C++ for microcontroller control,
+                and C# for the desktop interface. Integrated Oxygen, CO2, Humidity, and Temperature sensors.
+              </p>
+              <p className="text-sm text-blue-600 mt-2">Role: Developer and Electronic Engineer</p>
+            </div>
+
+            <div className="shadow-lg border border-blue-100 rounded-xl p-4">
+              <h3 className="text-xl font-bold text-blue-800">WhatsApp + Dialog Flow Integration</h3>
+              <p className="text-gray-600 text-sm mb-2">May 2025</p>
+              <p className="text-gray-700">
+                Developed an API using Python and Flask to integrate a Dialog Flow chatbot with WhatsApp through Twilio.
+              </p>
+              <p className="text-sm text-blue-600">Role: Developer</p>
+              <a
+                className="text-blue-600 hover:underline mt-2 inline-block"
+                href="https://github.com/StevenTEC295/whatsappAgent"
+                target="_blank"
+              >
+                View on GitHub
+              </a>
+            </div>
           </div>
         </section>
 
