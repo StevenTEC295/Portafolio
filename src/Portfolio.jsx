@@ -51,10 +51,11 @@ export default function Portfolio() {
           <h2 className="text-3xl font-semibold text-blue-700 mb-4">Technical Skills</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Programming: Python, JavaScript, C++, Java, Kotlin, C#</li>
-            <li>Web: HTML, CSS, React, Node.js</li>
-            <li>Version Control: Git / GitHub</li>
-            <li>Databases: MySQL, MongoDB</li>
-            <li>Tools: Figma, REST APIs, Docker, Flask, Pandas, TensorFlow, Scikit Learn</li>
+            <li>Web: HTML, CSS, React, Node.js, Flutter, Dart, Tailwind CSS, Crow, Flask, FastAPI, Django</li>
+            <li>Version Control: Git / GitHub / Gitlab</li>
+            <li>Databases: MySQL, MongoDB, SQL Server, PostgreSQL, FireBase</li>
+            <li>Data Science & Machine Learning: Pandas, Numpy, Scikit Learn, TensorFlow, PyTorch, OpenCV, Matplotlib, Seaborn, SciPy</li>
+            <li>Tools: Figma, Google Colab, Google Cloud Platform, Docker, Linux, Windows, Office 365, LibreOffice</li>
           </ul>
         </section>
 
