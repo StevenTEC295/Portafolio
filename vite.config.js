@@ -3,10 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Portafolio/',
-  build: {
-    rollupOptions: {
-      external: ['lucide-react']
-    }
-  }
+  base: '/PortafolioWeb/'
 })
