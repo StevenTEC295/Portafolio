@@ -70,11 +70,11 @@ export default function Portfolio() {
               link="https://github.com/StevenTEC295/whatsappAgent"
             />
             <ProyectoCard
-              titulo="WhatsApp + Dialog Flow Integration"
+              titulo="CREATUS-SMG"
               fecha="May 2025"
-              descripcion="Developed an API using Python and Flask to integrate a Dialog Flow chatbot with WhatsApp through Twilio."
+              descripcion="System of Gas Control for the CREATUS company Arduino C++ code for an ESP32 microcontroller, and data visualization with C# server"
               rol="Developer"
-              link="https://github.com/StevenTEC295/whatsappAgent"
+              link="https://github.com/StevenProgrammer01/CREATUS-SMG.git"
             />
             <ProyectoCard
               titulo="WhatsApp + Dialog Flow Integration"
